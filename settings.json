@@ -1,0 +1,65 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+
+  "terminal": {
+    "shell": {
+      "with_arguments": {
+      "program": "C:\\Program Files\\Git\\bin\\bash.exe",
+      "args": ["--login", "-i"]
+      }
+    }
+  },
+
+  "languages": {
+    "Python": {
+      "language_servers": [
+        // Enable ty, disable basedpyright, and enable all other
+        // language servers that are enabled by default (e.g. ruff).
+        "ty",
+        "ruff"
+      ],
+      "code_actions_on_format": {
+         "source.organizeImports.ruff": true
+       },
+       "formatter": {
+         "language_server": {
+           "name": "ruff"
+         }
+       }
+    }
+  },
+  "cli_default_open_behavior": "existing_window",
+  "project_panel": {
+    "dock": "left"
+  },
+  "outline_panel": {
+    "dock": "left"
+  },
+  "collaboration_panel": {
+    "dock": "left"
+  },
+  "agent": {
+    "dock": "right",
+    "favorite_models": [],
+    "model_parameters": []
+  },
+  "git_panel": {
+    "dock": "left"
+  },
+  "base_keymap": "VSCode",
+  "vim_mode": true,
+  "ui_font_size": 13,
+  "buffer_font_size": 12,
+  "theme": {
+    "mode": "dark",
+    "light": "One Light",
+    "dark": "Ayu Dark"
+  }
+}
