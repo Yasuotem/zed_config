@@ -29,6 +29,10 @@
       "ctrl-k": "editor::ShowSignatureHelp",
       "ctrl-b": "workspace::ToggleLeftDock",
       "ctrl-s": "workspace::Save",
+      "ctrl-shift-v": [
+        "task::Spawn",
+        {"task_name": "clipimg"}
+      ]
     }
   },
   {
