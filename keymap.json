@@ -10,7 +10,6 @@
     "context": "Workspace",
     "bindings": {
       "shift shift": "file_finder::Toggle",
-      "ctrl-s": "workspace::Save",
     }
   },
   {
@@ -29,6 +28,7 @@
       "ctrl-shift-h": "buffer_search::DeployReplace",
       "ctrl-k": "editor::ShowSignatureHelp",
       "ctrl-b": "workspace::ToggleLeftDock",
+      "ctrl-s": "workspace::Save",
     }
   },
   {
